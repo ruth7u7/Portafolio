@@ -80,28 +80,21 @@
   margin-left: 10px;
 }
 
-.experience-container {
+.experience-container,
+.projects-container,
+.skills-container,
+.social-container,
+.email-container {
   width: 80%;
   margin: auto;
   margin-top: 20px;
 }
 
-.projects-container {
-  width: 80%;
-  margin: auto;
-  margin-top: 20px;
-}
-
-.experience-container .title-experience {
-  color: #5fdfff;
-  font-family: Inter;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-.projects-container .title-project {
+.experience-container .title-experience,
+.projects-container .title-project,
+.skills-container .title-skills,
+.social-container .title-social,
+.email-container .title-email {
   color: #5fdfff;
   font-family: Inter;
   font-size: 26px;

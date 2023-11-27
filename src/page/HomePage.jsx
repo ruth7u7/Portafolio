@@ -2,7 +2,10 @@ import { Divider } from "primereact/divider";
 import PersonalInformation from "../components/PersonalInformation";
 import Experience from "../components/Experience";
 import Project from "../components/Project";
+import Skills from "../components/Skills";
+import Social from "../components/Social";
 import "../styles/main.css";
+import Email from "../components/Email";
 
 export default function HomePage() {
 
@@ -14,6 +17,12 @@ export default function HomePage() {
         <Experience />
         <Divider type="dotted" className="w-10 m-auto mt-5" />
         <Project />
+        <Divider type="dotted" className="w-10 m-auto mt-5" />
+        <Skills />
+        <Divider type="dotted" className="w-10 m-auto mt-3" />
+        <Social />
+        <Divider type="dotted" className="w-10 m-auto mt-3" />
+        <Email />
       </div>
     </>
   );
