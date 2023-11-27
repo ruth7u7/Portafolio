@@ -8,6 +8,7 @@ import linux from "../assets/icons/Linux.png";
 import python from "../assets/icons/Python.png";
 import react from "../assets/icons/React.png";
 import sql from "../assets/icons/Sql.png";
+import figma from "../assets/icons/Figma.png";
 import "../styles/skills.css";
 
 export default function Skills() {
@@ -81,51 +82,16 @@ export default function Skills() {
           </svg>
         </div>
         <div className="icons-section flex justify-content-center">
-          <Image
-            className="bootstrap"
-            alt="bootstrap"
-            src={bootstrap}
-          />
-          <Image
-            className="git"
-            alt="git"
-            src={git}
-          />
-          <Image
-            className="github"
-            alt="github"
-            src={github}
-          />
-          <Image
-            className="django"
-            alt="django"
-            src={django}
-          />
-          <Image
-            className="react"
-            alt="react"
-            src={react}
-          />
-          <Image
-            className="laravel"
-            alt="laravel"
-            src={laravel}
-          />
-          <Image
-            className="sql"
-            alt="sql"
-            src={sql}
-          />
-          <Image
-            className="python"
-            alt="python"
-            src={python}
-          />
-          <Image
-            className="linux"
-            alt="linux"
-            src={linux}
-          />
+          <Image className="bootstrap" alt="bootstrap" src={bootstrap} />
+          <Image className="git" alt="git" src={git} />
+          <Image className="github" alt="github" src={github} />
+          <Image className="django" alt="django" src={django} />
+          <Image className="react" alt="react" src={react} />
+          <Image className="laravel" alt="laravel" src={laravel} />
+          <Image className="sql" alt="sql" src={sql} />
+          <Image className="python" alt="python" src={python} />
+          <Image className="linux" alt="linux" src={linux} />
+          <Image className="figma" alt="figma" src={figma} />
         </div>
       </div>
     </>
