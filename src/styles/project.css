@@ -69,5 +69,10 @@
   }
   .description-container .skills-container {
     width: 100%;
+    justify-content: center;
+  }
+  .skills-container img {
+    width: 40px;
+    height: auto;
   }
 }

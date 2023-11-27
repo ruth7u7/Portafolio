@@ -7,7 +7,7 @@ import bootstrap from "../assets/icons/Bootstrap.png";
 import react from "../assets/icons/React.png";
 import laravel from "../assets/icons/Laravel.png";
 import php from "../assets/icons/Php.png";
-import mysql from "../assets/icons/Mysql.png";
+import sql from "../assets/icons/Sql.png";
 
 export default function Project() {
   const stack1 = [
@@ -19,7 +19,7 @@ export default function Project() {
   const stack2 = [
     { id: 1, icon: bootstrap },
     { id: 2, icon: php },
-    { id: 3, icon: mysql },
+    { id: 3, icon: sql },
   ];
 
   return (

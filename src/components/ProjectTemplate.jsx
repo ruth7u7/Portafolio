@@ -16,7 +16,7 @@ export default function ProjectTemplate({
         <div className="description-container">
           <p className="prj-title">{title}</p>
           <p className="prj-desc">{description}</p>
-          <div className="skills-container">
+          <div className="skills-container flex align-items-center">
             {Array.isArray(prjSkills) &&
               prjSkills.map((skill) => (
                 <img
