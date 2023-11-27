@@ -5,7 +5,7 @@ import project3 from "../assets/images/prj-3.png";
 import project4 from "../assets/images/prj-4.png";
 import bootstrap from "../assets/icons/Bootstrap.png";
 import react from "../assets/icons/React.png";
-import laravel from "../assets/icons/laravel.png";
+import laravel from "../assets/icons/Laravel.png";
 import php from "../assets/icons/Php.png";
 import mysql from "../assets/icons/Mysql.png";
 
