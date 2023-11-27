@@ -1,6 +1,7 @@
 import { Image } from "primereact/image";
 import profile from "../assets/images/profile.png";
 import looking from "../assets/images/looking.svg";
+import cv from "../assets/docs/cv.pdf";
 import "../styles/personal.css";
 
 export default function PersonalInformation() {
@@ -20,8 +21,10 @@ export default function PersonalInformation() {
             </div>
             <div className="resume-icon mx-3">
               <a
-                href=""
+                href={cv}
+                rel="noreferrer"
                 className="flex justify-content-center align-items-center"
+                target="_blank"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
