@@ -82,16 +82,16 @@ export default function Skills() {
           </svg>
         </div>
         <div className="icons-section flex justify-content-center">
-          <Image className="bootstrap" alt="bootstrap" src={bootstrap} />
-          <Image className="git" alt="git" src={git} />
-          <Image className="github" alt="github" src={github} />
-          <Image className="django" alt="django" src={django} />
-          <Image className="react" alt="react" src={react} />
-          <Image className="laravel" alt="laravel" src={laravel} />
-          <Image className="sql" alt="sql" src={sql} />
-          <Image className="python" alt="python" src={python} />
-          <Image className="linux" alt="linux" src={linux} />
-          <Image className="figma" alt="figma" src={figma} />
+          <Image className="bootstrap" alt="bootstrap" src={bootstrap} title="Bootstrap"/>
+          <Image className="git" alt="git" src={git} title="Git"/>
+          <Image className="github" alt="github" src={github} title="Github"/>
+          <Image className="django" alt="django" src={django} title="Django"/>
+          <Image className="react" alt="react" src={react} title="React"/>
+          <Image className="laravel" alt="laravel" src={laravel} title="Laravel"/>
+          <Image className="sql" alt="sql" src={sql} title="Sql"/>
+          <Image className="python" alt="python" src={python} title="Python"/>
+          <Image className="linux" alt="linux" src={linux} title="Linux"/>
+          <Image className="figma" alt="figma" src={figma} title="Figmas"/>
         </div>
       </div>
     </>
