@@ -82,16 +82,16 @@ export default function Skills() {
           </svg>
         </div>
         <div className="icons-section flex justify-content-center">
-          <Image className="bootstrap" alt="bootstrap" src={bootstrap} title="Bootstrap"/>
-          <Image className="git" alt="git" src={git} title="Git"/>
-          <Image className="github" alt="github" src={github} title="Github"/>
-          <Image className="django" alt="django" src={django} title="Django"/>
-          <Image className="react" alt="react" src={react} title="React"/>
-          <Image className="laravel" alt="laravel" src={laravel} title="Laravel"/>
-          <Image className="sql" alt="sql" src={sql} title="Sql"/>
-          <Image className="python" alt="python" src={python} title="Python"/>
-          <Image className="linux" alt="linux" src={linux} title="Linux"/>
-          <Image className="figma" alt="figma" src={figma} title="Figmas"/>
+          <Image className="bootstrap" alt="bootstrap" src={bootstrap} title="Bootstrap" width="30" height="30"/>
+          <Image className="git" alt="git" src={git} title="Git" width="30" height="30"/>
+          <Image className="github" alt="github" src={github} title="Github" width="30" height="30"/>
+          <Image className="django" alt="django" src={django} title="Django" width="30" height="30"/>
+          <Image className="react" alt="react" src={react} title="React" width="30" height="30"/>
+          <Image className="laravel" alt="laravel" src={laravel} title="Laravel" width="30" height="30"/>
+          <Image className="sql" alt="sql" src={sql} title="Sql" width="30" height="30"/>
+          <Image className="python" alt="python" src={python} title="Python" width="30" height="30"/>
+          <Image className="linux" alt="linux" src={linux} title="Linux" width="30" height="30"/>
+          <Image className="figma" alt="figma" src={figma} title="Figmas" width="30" height="30"/>
         </div>
       </div>
     </>

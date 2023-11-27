@@ -24,6 +24,8 @@ export default function ProjectTemplate({
                   src={skill.icon}
                   alt={`skill-${skill.id}`}
                   className="skill-image"
+                  width="25"
+                  height="25"
                 />
               ))}
           </div>

@@ -10,4 +10,8 @@
     .icons-section {
         flex-wrap: wrap;
     }
+    .icons-section img {
+        width: 50px;
+        height: auto;
+    }
 }
