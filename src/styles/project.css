@@ -1,0 +1,54 @@
+.image-prj {
+  margin: 50px 0;
+}
+
+.description-container .prj-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.description-container .prj-desc {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 20px 0;
+}
+
+.description-container .skills-container {
+  margin: 10px 0;
+}
+
+.description-container .skills-container img:first-child {
+  margin: 0 20px 0 0;
+}
+
+.description-container .skills-container img:nth-child(3) {
+  margin: 0 20px;
+}
+
+.btnLive {
+  display: flex;
+  width: 100px;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #0f172a;
+  border: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  cursor: pointer;
+  margin: 20px 0;
+}
