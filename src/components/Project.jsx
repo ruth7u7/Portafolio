@@ -55,7 +55,7 @@ export default function Project() {
           <ProjectTemplate
             image={project2}
             title="Bregma"
-            description="Web dirigida al sector de medicina corporativa."
+            description="Web dirigida al sector de medicina corporativa. (Colaborativo)"
             prjSkills={stack1}
           />
           <ProjectTemplate
