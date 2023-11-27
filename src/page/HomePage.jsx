@@ -4,8 +4,8 @@ import Experience from "../components/Experience";
 import Project from "../components/Project";
 import Skills from "../components/Skills";
 import Social from "../components/Social";
-import "../styles/main.css";
 import Email from "../components/Email";
+import "../styles/main.css";
 
 export default function HomePage() {
 

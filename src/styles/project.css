@@ -52,3 +52,22 @@
   cursor: pointer;
   margin: 20px 0;
 }
+
+@media screen and (max-width:768px) {
+  .container-project {
+    flex-wrap: wrap;
+  }
+  .image-prj {
+    width: 100%;
+  }
+  .image-prj img {
+    width: 100%;
+  }
+  .description-container {
+    text-align: center;
+    width: 100%;
+  }
+  .description-container .skills-container {
+    width: 100%;
+  }
+}

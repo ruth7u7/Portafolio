@@ -1,0 +1,13 @@
+.icons {
+    margin-top: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .personal-information {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .personal-information .icons {
+        justify-content: center !important;
+    }
+}
