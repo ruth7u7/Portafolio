@@ -36,7 +36,7 @@ export default function ProjectTemplate({
                 />
               ))}
           </div>
-          <button className="btnLive" onClick={handleLiveButtonClick}>
+          <button className={`btnLive ${!btnName && 'hidden'}`} onClick={handleLiveButtonClick}>
             {btnName}
             <svg
               xmlns="http://www.w3.org/2000/svg"
