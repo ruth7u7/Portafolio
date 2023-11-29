@@ -12,8 +12,8 @@ export default function PersonalInformation() {
         <div className="information">
           <p className="name">German Cordova</p>
           <p className="description">
-            I am a software developer with extensive experience in web design
-            and software development.
+            Soy un desarrollador de software con una amplia experiencia en
+            diseño y desarrollo web.
           </p>
           <div className="icons flex justify-content-start align-items-center">
             <div className="looking-icon">
@@ -43,7 +43,7 @@ export default function PersonalInformation() {
                     fill="#AEB4F9"
                   />
                 </svg>
-                <p className="resume-text">Resume</p>
+                <p className="resume-text">Hoja de vida</p>
               </a>
             </div>
           </div>
