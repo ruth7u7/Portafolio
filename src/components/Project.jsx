@@ -26,7 +26,7 @@ export default function Project() {
     <>
       <div className="projects-container">
         <div className="title-project flex justify-content-start align-items-center">
-          <p className="mr-4">Projects</p>
+          <p className="mr-4">Proyectos</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"

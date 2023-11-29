@@ -5,7 +5,7 @@ export default function Experience() {
     <>
       <div className="experience-container">
         <div className="title-experience flex align-items-center">
-          <p className="mr-4">Experience</p>
+          <p className="mr-4">Experiencia</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
