@@ -7,6 +7,7 @@ export default function ProjectTemplate({
   description,
   prjSkills,
   url,
+  btnName
 }) {
   const handleLiveButtonClick = () => {
     if (url) {
@@ -36,7 +37,7 @@ export default function ProjectTemplate({
               ))}
           </div>
           <button className="btnLive" onClick={handleLiveButtonClick}>
-            Live
+            {btnName}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="13"
@@ -79,4 +80,5 @@ ProjectTemplate.propTypes = {
   description: PropTypes.string.isRequired,
   prjSkills: PropTypes.arrayOf(PropTypes.string).isRequired,
   url: PropTypes.string.isRequired,
+  btnName: PropTypes.string.isRequired
 };

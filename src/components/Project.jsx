@@ -52,6 +52,7 @@ export default function Project() {
             description="Web dirigida al sector de metal mecanica."
             prjSkills={stack1}
             url="https://dmx-offroad.netlify.app/"
+            btnName="Live"
           />
           <ProjectTemplate
             image={project2}
@@ -64,12 +65,14 @@ export default function Project() {
             title="BookHub"
             description="Web especializada en la venta de libros electronicos."
             prjSkills={stack2}
+            btnName="Source"
           />
           <ProjectTemplate
             image={project4}
             title="Fast Computer"
             description="Web para el sector computacional especializada en la venta de computadoras."
             prjSkills={stack2}
+            btnName="Source"
           />
         </div>
       </div>
