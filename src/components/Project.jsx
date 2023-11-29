@@ -65,6 +65,7 @@ export default function Project() {
             title="BookHub"
             description="Web especializada en la venta de libros electronicos."
             prjSkills={stack2}
+            url="https://github.com/gdaniel159/BookHub"
             btnName="Source"
           />
           <ProjectTemplate
@@ -72,6 +73,7 @@ export default function Project() {
             title="Fast Computer"
             description="Web para el sector computacional especializada en la venta de computadoras."
             prjSkills={stack2}
+            url="https://github.com/gdaniel159/FastComputer"
             btnName="Source"
           />
         </div>
