@@ -6,7 +6,13 @@ export default function ProjectTemplate({
   title,
   description,
   prjSkills,
+  url,
 }) {
+  const handleLiveButtonClick = () => {
+    if (url) {
+      window.location.href = url;
+    }
+  };
   return (
     <>
       <div className="container-project flex align-items-center">
@@ -29,7 +35,7 @@ export default function ProjectTemplate({
                 />
               ))}
           </div>
-          <button className="btnLive">
+          <button className="btnLive" onClick={handleLiveButtonClick}>
             Live
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -72,4 +78,5 @@ ProjectTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   prjSkills: PropTypes.arrayOf(PropTypes.string).isRequired,
+  url: PropTypes.string.isRequired,
 };

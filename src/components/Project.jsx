@@ -51,6 +51,7 @@ export default function Project() {
             title="DMX - OffRoad Equipment"
             description="Web dirigida al sector de metal mecanica."
             prjSkills={stack1}
+            url="https://dmx-offroad.netlify.app/"
           />
           <ProjectTemplate
             image={project2}
