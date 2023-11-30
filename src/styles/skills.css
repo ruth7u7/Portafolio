@@ -3,7 +3,13 @@
 }
 
 .icons-section img {
-    margin: 8px 10px;
+    margin: 8px 15px;
+}
+
+@media screen and (max-width: 1440px) {
+    .icons-section {
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 768px) {

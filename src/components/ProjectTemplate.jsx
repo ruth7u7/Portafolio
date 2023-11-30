@@ -17,7 +17,7 @@ export default function ProjectTemplate({
   return (
     <>
       <div className="container-project flex align-items-center">
-        <div className="image-prj mr-5">
+        <div className="image-prj">
           <img src={image} alt="image-prj" />
         </div>
         <div className="description-container">
@@ -49,7 +49,7 @@ ProjectTemplate.propTypes = {
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  prjSkills: PropTypes.arrayOf(PropTypes.string).isRequired,
-  url: PropTypes.string.isRequired,
-  btnName: PropTypes.string.isRequired
+  prjSkills: PropTypes.arrayOf(PropTypes.object).isRequired,
+  url: PropTypes.string,
+  btnName: PropTypes.string
 };
