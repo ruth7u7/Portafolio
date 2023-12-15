@@ -3,6 +3,7 @@ import project1 from "../assets/images/prj-1.png";
 import project2 from "../assets/images/prj-2.png";
 import project3 from "../assets/images/prj-3.png";
 import project4 from "../assets/images/prj-4.png";
+import project5 from "../assets/images/prj-5.png";
 import bootstrap from "../assets/icons/Bootstrap.png";
 import react from "../assets/icons/React.png";
 import laravel from "../assets/icons/Laravel.png";
@@ -58,6 +59,12 @@ export default function Project() {
             image={project2}
             title="Bregma"
             description="Web dirigida al sector de medicina corporativa. (Colaborativo)"
+            prjSkills={stack1}
+          />
+          <ProjectTemplate
+            image={project5}
+            title="Lab-U"
+            description="Web diseñada para ofrecer examenes de laboratorio. (Colaborativo)"
             prjSkills={stack1}
           />
           <ProjectTemplate
