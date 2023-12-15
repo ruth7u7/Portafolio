@@ -81,17 +81,117 @@ export default function Skills() {
             </defs>
           </svg>
         </div>
-        <div className="icons-section flex justify-content-center">
-          <Image className="bootstrap" alt="bootstrap" src={bootstrap} title="Bootstrap" width="45" height="auto"/>
-          <Image className="git" alt="git" src={git} title="Git" width="45" height="auto"/>
-          <Image className="github" alt="github" src={github} title="Github" width="45" height="auto"/>
-          <Image className="django" alt="django" src={django} title="Django" width="45" height="auto"/>
-          <Image className="react" alt="react" src={react} title="React" width="45" height="auto"/>
-          <Image className="laravel" alt="laravel" src={laravel} title="Laravel" width="45" height="auto"/>
-          <Image className="sql" alt="sql" src={sql} title="Sql" width="45" height="auto"/>
-          <Image className="python" alt="python" src={python} title="Python" width="45" height="auto"/>
-          <Image className="linux" alt="linux" src={linux} title="Linux" width="45" height="auto"/>
-          <Image className="figma" alt="figma" src={figma} title="Figmas" width="45" height="auto"/>
+        <div className="icons-section flex flex-wrap justify-content-center">
+          <div className="containerSkill">
+            <Image
+              className="bootstrap"
+              alt="bootstrap"
+              src={bootstrap}
+              title="Bootstrap"
+              width="45"
+              height="auto"
+            />
+            <p>Bootstrap</p>
+          </div>
+          <div className="containerSkill">
+            <Image
+              className="git"
+              alt="git"
+              src={git}
+              title="Git"
+              width="45"
+              height="auto"
+            />
+            <p>Git</p>
+          </div>
+          <div className="containerSkill">
+            <Image
+              className="github"
+              alt="github"
+              src={github}
+              title="Github"
+              width="45"
+              height="auto"
+            />
+            <p>Github</p>
+          </div>
+          <div className="containerSkill">
+            <Image
+              className="django"
+              alt="django"
+              src={django}
+              title="Django"
+              width="45"
+              height="auto"
+            />
+            <p>Django</p>
+          </div>
+          <div className="containerSkill">
+            <Image
+              className="react"
+              alt="react"
+              src={react}
+              title="React"
+              width="45"
+              height="auto"
+            />
+            <p>React</p>
+          </div>
+          <div className="containerSkill">
+            <Image
+              className="laravel"
+              alt="laravel"
+              src={laravel}
+              title="Laravel"
+              width="45"
+              height="auto"
+            />
+            <p>Laravel</p>
+          </div>
+          <div className="containerSkill">
+            <Image
+              className="sql"
+              alt="sql"
+              src={sql}
+              title="Sql"
+              width="45"
+              height="auto"
+            />
+            <p>SQL</p>
+          </div>
+          <div className="containerSkill">
+            <Image
+              className="python"
+              alt="python"
+              src={python}
+              title="Python"
+              width="45"
+              height="auto"
+            />
+            <p>Python</p>
+          </div>
+          <div className="containerSkill">
+            <Image
+              className="linux"
+              alt="linux"
+              src={linux}
+              title="Linux"
+              width="45"
+              height="auto"
+            />
+            <p>Linux</p>
+          </div>
+          <div className="containerSkill">
+            <Image
+              className="figma"
+              alt="figma"
+              src={figma}
+              title="Figmas"
+              width="45"
+              height="auto"
+            />
+            <p>Figma</p>
+          </div>
         </div>
       </div>
     </>

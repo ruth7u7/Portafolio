@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { Image } from "primereact/image";
 import "../styles/project.css";
 
 export default function ProjectTemplate({
@@ -18,7 +19,7 @@ export default function ProjectTemplate({
     <>
       <div className="container-project flex align-items-center">
         <div className="image-prj">
-          <img src={image} alt="image-prj" />
+          <Image src={image} alt="image-prj" preview width="310" height="195" />
         </div>
         <div className="description-container">
           <p className="prj-title">{title}</p>

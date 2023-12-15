@@ -33,6 +33,11 @@ export default function Experience() {
             <li>
               Integracion de API REST para la gestion de examenes ocupacionales
             </li>
+            <li>
+              Implementacion de web para examenes ocupacionales y examenes de
+              laboratorio.
+            </li>
+            <li>Administración y gestión de base de datos.</li>
           </ul>
         </div>
       </div>

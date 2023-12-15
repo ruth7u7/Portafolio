@@ -1,9 +1,15 @@
 .icons-section {
     margin: 20px 0;
+    /* border: 1px solid #000; */
 }
 
-.icons-section img {
-    margin: 8px 15px;
+.containerSkill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 10px;
+    /* border: 1px solid #000; */
 }
 
 @media screen and (max-width: 1440px) {

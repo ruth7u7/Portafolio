@@ -9,12 +9,14 @@ import react from "../assets/icons/React.png";
 import laravel from "../assets/icons/Laravel.png";
 import php from "../assets/icons/Php.png";
 import sql from "../assets/icons/Sql.png";
+import figma from "../assets/icons/figma.png";
 
 export default function Project() {
   const stack1 = [
     { id: 1, icon: bootstrap },
     { id: 2, icon: react },
     { id: 3, icon: laravel },
+    { id: 4, icon: figma }
   ];
 
   const stack2 = [
