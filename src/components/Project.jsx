@@ -9,7 +9,7 @@ import react from "../assets/icons/React.png";
 import laravel from "../assets/icons/Laravel.png";
 import php from "../assets/icons/Php.png";
 import sql from "../assets/icons/Sql.png";
-import figma from "../assets/icons/figma.png";
+import figma from "../assets/icons/Figma.png";
 
 export default function Project() {
   const stack1 = [
