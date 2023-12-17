@@ -66,7 +66,7 @@ export default function Project() {
           <ProjectTemplate
             image={project5}
             title="Lab-U"
-            description="Web diseñada para ofrecer examenes de laboratorio. (Colaborativo)"
+            description="Web diseñada para la adquisicion examenes de laboratorio cerca a tu localidad. (Colaborativo)"
             prjSkills={stack1}
           />
           <ProjectTemplate
