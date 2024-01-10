@@ -3,7 +3,7 @@
 }
 
 .experience-information .puesto {
-  color: #000;
+  color: #fff;
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
@@ -13,7 +13,7 @@
 }
 
 .experience-information .date {
-  color: #7e7e7e;
+  color: #9c9c9c;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -23,6 +23,11 @@
 }
 
 .experience-information .list-task {
-    margin: 0 40px;
-    line-height: 30px;
+  margin: 0 40px;
+  line-height: 30px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
 }
