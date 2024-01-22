@@ -62,12 +62,16 @@ export default function Project() {
             title="Bregma"
             description="Web dirigida al sector de medicina corporativa. (Colaborativo)"
             prjSkills={stack1}
+            url="https://bregma.com.pe/login"
+            btnName="Live"
           />
           <ProjectTemplate
             image={project5}
             title="Lab-U"
             description="Web diseñada para la adquisicion examenes de laboratorio cerca a tu localidad. (Colaborativo)"
             prjSkills={stack1}
+            url="https://lab-u.org/"
+            btnName="Live"
           />
           <ProjectTemplate
             image={project3}
