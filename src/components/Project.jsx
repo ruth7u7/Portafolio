@@ -4,19 +4,21 @@ import project2 from "../assets/images/prj-2.png";
 import project3 from "../assets/images/prj-3.png";
 import project4 from "../assets/images/prj-4.png";
 import project5 from "../assets/images/prj-5.png";
+import project6 from "../assets/images/prj-6.png";
 import bootstrap from "../assets/icons/Bootstrap.png";
 import react from "../assets/icons/React.png";
 import laravel from "../assets/icons/Laravel.png";
 import php from "../assets/icons/Php.png";
 import sql from "../assets/icons/Sql.png";
 import figma from "../assets/icons/Figma.png";
+import vue from "../assets/icons/Vue.png";
 
 export default function Project() {
   const stack1 = [
     { id: 1, icon: bootstrap },
     { id: 2, icon: react },
     { id: 3, icon: laravel },
-    { id: 4, icon: figma }
+    { id: 4, icon: figma },
   ];
 
   const stack2 = [
@@ -24,6 +26,12 @@ export default function Project() {
     { id: 2, icon: php },
     { id: 3, icon: sql },
   ];
+
+  const stack3 = [
+    { id:1, icon: laravel },
+    { id:2, icon: vue },
+    { id:3, icon: sql }
+  ]
 
   return (
     <>
@@ -49,6 +57,12 @@ export default function Project() {
           </svg>
         </div>
         <div className="project-information">
+          <ProjectTemplate
+            image={project6}
+            title="Argus ERP"
+            description="Solución web dirigida a controlar y automatizar los procesos de negocio de pequeñas, medianas y grandes empresas."
+            prjSkills={stack3}
+          />
           <ProjectTemplate
             image={project1}
             title="DMX - OffRoad Equipment"

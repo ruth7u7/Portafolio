@@ -9,6 +9,7 @@ import python from "../assets/icons/Python.png";
 import react from "../assets/icons/React.png";
 import sql from "../assets/icons/Sql.png";
 import figma from "../assets/icons/Figma.png";
+import vue from "../assets/icons/Vue.png";
 import "../styles/skills.css";
 
 export default function Skills() {
@@ -186,11 +187,22 @@ export default function Skills() {
               className="figma"
               alt="figma"
               src={figma}
-              title="Figmas"
+              title="Figma"
               width="45"
               height="auto"
             />
             <p>Figma</p>
+          </div>
+          <div className="containerSkill">
+            <Image
+              className="vue"
+              alt="vue"
+              src={vue}
+              title="Vue"
+              width="45"
+              height="auto"
+            />
+            <p>Vue</p>
           </div>
         </div>
       </div>

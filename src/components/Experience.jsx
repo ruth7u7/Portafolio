@@ -25,13 +25,29 @@ export default function Experience() {
           </svg>
         </div>
         <div className="experience-information">
+          <p className="puesto">
+            Analista Programador - GEMMaster Business Solutions
+          </p>
+          <p className="date">Enero 2024 - Actualidad</p>
+          <ul className="list-task">
+            <li>Gestión de una aplicación web ERP.</li>
+            <li>Desarrollo de API REST con el framework Laravel.</li>
+            <li>Desarrollo Web FrontEnd con el framework Vue JS.</li>
+            <li>
+              Implementación de actualizaciones y optimización de estructura del
+              sistema.
+            </li>
+            <li>Administración y gestión de base de datos.</li>
+          </ul>
+        </div>
+        <div className="experience-information">
           <p className="puesto">Full Stack Developer - GetByte</p>
           <p className="date">Jul 2023 - Dec 2023</p>
           <ul className="list-task">
-            <li>Desarrollo de API REST con el framework Laravel</li>
-            <li>Desarrollo Web FrontEnd con el framework React JS</li>
+            <li>Desarrollo de API REST con el framework Laravel.</li>
+            <li>Desarrollo Web FrontEnd con el framework React JS.</li>
             <li>
-              Integracion de API REST para la gestion de examenes ocupacionales
+              Integracion de API REST para la gestion de examenes ocupacionales.
             </li>
             <li>
               Implementacion de web para examenes ocupacionales y examenes de

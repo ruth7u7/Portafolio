@@ -12,8 +12,7 @@ export default function PersonalInformation() {
         <div className="information">
           <p className="name">German Cordova</p>
           <p className="description">
-            Soy un desarrollador de software con una amplia experiencia en
-            diseño y desarrollo web.
+            Soy un desarrollador de software con una amplia experiencia en el diseño e implementacion de soluciones tecnologicas.
           </p>
           <div className="icons flex justify-content-start align-items-center">
             <div className="looking-icon">
