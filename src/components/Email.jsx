@@ -1,13 +1,25 @@
 import { InputText } from "primereact/inputtext";
 import { Button } from 'primereact/button';
 import "../styles/email.css";
+import { useState } from "react";
 
 export default function Email() {
   const emailAddress = "german.sc937@gmail.com";
+  const [copySuccess, setCopySuccess] = useState('');
 
   const handleEmailClick = () => {
     window.location.href = `mailto:${emailAddress}`;
   };
+
+  const handleCopyEmail = async () => {
+    try {
+      await navigator.clipboard.writeText(emailAddress);
+      setCopySuccess('Copied!');
+      setTimeout(() => setCopySuccess(''), 2000); 
+    } catch (err) {
+      setCopySuccess('Failed to copy!');
+    }
+  }
 
   return (
     <>
@@ -41,8 +53,9 @@ export default function Email() {
           />
           <div className="actions flex mx-2">
             <Button icon="pi pi-send" className="p-2 mx-2" onClick={handleEmailClick} />
-            <Button icon="pi pi-copy" className="p-2 mx-2" />
+            <Button icon="pi pi-copy" className="p-2 mx-2" onClick={handleCopyEmail}/>
           </div>
+          {copySuccess && <span className="copy-success">{copySuccess}</span>}  
         </div>
       </div>
     </>
