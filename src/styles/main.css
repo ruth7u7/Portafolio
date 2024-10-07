@@ -87,7 +87,8 @@ body {
 .projects-container,
 .skills-container,
 .social-container,
-.email-container {
+.email-container,
+.courses-container {
   width: 80%;
   margin: auto;
   margin-top: 20px;
@@ -97,7 +98,8 @@ body {
 .projects-container .title-project,
 .skills-container .title-skills,
 .social-container .title-social,
-.email-container .title-email {
+.email-container .title-email,
+.courses-container .title-courses {
   /* color: #5fdfff; */
   font-family: Inter;
   font-size: 26px;

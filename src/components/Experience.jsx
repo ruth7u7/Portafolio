@@ -28,7 +28,7 @@ export default function Experience() {
           <p className="puesto">
             Analista Programador - GEMMaster Business Solutions
           </p>
-          <p className="date">Enero 2024 - Actualidad</p>
+          <p className="date">Enero 2024 - Octubre 2024</p>
           <ul className="list-task">
             <li>Gestión de una aplicación web ERP.</li>
             <li>Desarrollo de API REST con el framework Laravel.</li>

@@ -10,6 +10,7 @@ import react from "../assets/icons/React.png";
 import sql from "../assets/icons/Sql.png";
 import figma from "../assets/icons/Figma.png";
 import vue from "../assets/icons/Vue.png";
+import nodejs from "../assets/icons/nodejs.png";
 import "../styles/skills.css";
 
 export default function Skills() {
@@ -203,6 +204,17 @@ export default function Skills() {
               height="auto"
             />
             <p>Vue</p>
+          </div>
+          <div className="containerSkill">
+            <Image
+              className="nodejs"
+              alt="nodejs"
+              src={nodejs}
+              title="NodeJS"
+              width="45"
+              height="auto"
+            />
+            <p>NodeJs</p>
           </div>
         </div>
       </div>
