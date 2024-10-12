@@ -15,7 +15,7 @@ import vue from "../assets/icons/Vue.png";
 
 export default function Project() {
   const stack1 = [
-    { id: 1, icon: bootstrap },
+    // { id: 1, icon: bootstrap },
     { id: 2, icon: react },
     { id: 3, icon: laravel },
     { id: 4, icon: figma },
