@@ -59,13 +59,15 @@ export default function Project() {
         <div className="project-information">
           <ProjectTemplate
             image={project6}
-            title="Argus ERP"
+            title="Argus ERP - Software Privado"
             description="Solución web dirigida a controlar y automatizar los procesos de negocio de pequeñas, medianas y grandes empresas."
             prjSkills={stack3}
+            // url="https://demo.sistema-argus.com/dashboard"
+            // btnName="Live"
           />
           <ProjectTemplate
             image={project1}
-            title="Layla - Sistema de facturacion"
+            title="Layla - Sistema de facturacion - Software Privado"
             description="Solucion web dirigida a la gestion de inventario y generacion de comprobantes electronicos."
             prjSkills={stack1}
             // url="https://dmx-offroad.netlify.app/"
@@ -74,7 +76,7 @@ export default function Project() {
           <ProjectTemplate
             image={project2}
             title="Bregma"
-            description="Web dirigida al sector de medicina corporativa. (Colaborativo)"
+            description="Web dirigida al sector de medicina corporativa."
             prjSkills={stack1}
             url="https://bregma.com.pe/"
             btnName="Live"
@@ -82,7 +84,7 @@ export default function Project() {
           <ProjectTemplate
             image={project5}
             title="Lab-U"
-            description="Web diseñada para la adquisicion examenes de laboratorio cerca a tu localidad. (Colaborativo)"
+            description="Web diseñada para la adquisicion examenes de laboratorio cerca a tu localidad."
             prjSkills={stack1}
             url="https://www.lab-u.pe/"
             btnName="Live"
@@ -97,7 +99,7 @@ export default function Project() {
           />
           <ProjectTemplate
             image={project4}
-            title="Fast Computer"
+            title="Fast Computer - Software Privado"
             description="Web para el sector computacional especializada en la venta de computadoras."
             prjSkills={stack2}
             // url="https://github.com/gdaniel159/FastComputer"
