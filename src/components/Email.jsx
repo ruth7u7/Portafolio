@@ -52,8 +52,8 @@ export default function Email() {
             className="p-2 correo"
           />
           <div className="actions flex mx-2">
-            <Button icon="pi pi-send" className="p-2 mx-2" onClick={handleEmailClick} />
-            <Button icon="pi pi-copy" className="p-2 mx-2" onClick={handleCopyEmail}/>
+            <Button icon="pi pi-send" title="Enviar correo" className="p-2 mx-2" onClick={handleEmailClick} />
+            <Button icon="pi pi-copy" title="Copiar" className="p-2 mx-2" onClick={handleCopyEmail}/>
           </div>
           {copySuccess && <span className="copy-success">{copySuccess}</span>}  
         </div>
