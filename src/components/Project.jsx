@@ -65,8 +65,8 @@ export default function Project() {
           />
           <ProjectTemplate
             image={project1}
-            title="DMX - OffRoad Equipment"
-            description="Web dirigida al sector de metal mecanica."
+            title="Layla - Sistema de facturacion"
+            description="Solucion web dirigida a la gestion de inventario y generacion de comprobantes electronicos."
             prjSkills={stack1}
             // url="https://dmx-offroad.netlify.app/"
             // btnName="Live"
@@ -76,24 +76,24 @@ export default function Project() {
             title="Bregma"
             description="Web dirigida al sector de medicina corporativa. (Colaborativo)"
             prjSkills={stack1}
-            // url="https://bregma.com.pe/login"
-            // btnName="Live"
+            url="https://bregma.com.pe/"
+            btnName="Live"
           />
           <ProjectTemplate
             image={project5}
             title="Lab-U"
             description="Web diseñada para la adquisicion examenes de laboratorio cerca a tu localidad. (Colaborativo)"
             prjSkills={stack1}
-            // url="https://lab-u.org/"
-            // btnName="Live"
+            url="https://www.lab-u.pe/"
+            btnName="Live"
           />
           <ProjectTemplate
             image={project3}
             title="BookHub"
             description="Web especializada en la venta de libros electronicos."
             prjSkills={stack2}
-            // url="https://github.com/gdaniel159/BookHub"
-            // btnName="Source"
+            url="https://github.com/gdaniel159/BookHub"
+            btnName="Source"
           />
           <ProjectTemplate
             image={project4}
