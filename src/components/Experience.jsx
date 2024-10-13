@@ -41,7 +41,7 @@ export default function Experience() {
           </ul>
         </div>
         <div className="experience-information">
-          <p className="puesto">Web Developer - GetByte</p>
+          <p className="puesto">FullStack Developer - GetByte</p>
           <p className="date">Jul 2023 - Dec 2023</p>
           <ul className="list-task">
             <li>Desarrollo de API REST con el framework Laravel.</li>
