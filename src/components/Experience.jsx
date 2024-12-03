@@ -26,6 +26,23 @@ export default function Experience() {
         </div>
         <div className="experience-information">
           <p className="puesto">
+            Freelancer - Empresa de transporte Grupo Horna S.A.C
+          </p>
+          <p className="date">Octubre 2024 - Enero 2024</p>
+          <ul className="list-task">
+            <li>
+              Desarrollo de una pagina web interactiva con pasarela de pagos.
+            </li>
+            <li>Administración de servidores.</li>
+            <li>Implementación de un servicio de streaming.</li>
+            <li>
+              Gestión y soporte en el uso del software de venta de pasajes.
+            </li>
+            <li>Administración y gestión de base de datos.</li>
+          </ul>
+        </div>
+        <div className="experience-information">
+          <p className="puesto">
             Analista Programador - GEMMaster Business Solutions
           </p>
           <p className="date">Enero 2024 - Octubre 2024</p>
@@ -47,12 +64,29 @@ export default function Experience() {
             <li>Desarrollo de API REST con el framework Laravel.</li>
             <li>Desarrollo Web FrontEnd con el framework React JS.</li>
             <li>
-              Integracion de API REST para la gestion de examenes ocupacionales.
+              Integración de API REST para la gestión de exámenes ocupacionales.
             </li>
             <li>
-              Implementacion de web para examenes ocupacionales y examenes de
+              Implementación de web para exámenes ocupacionales y exámenes de
               laboratorio.
             </li>
+            <li>Administración y gestión de base de datos.</li>
+          </ul>
+        </div>
+        <div className="experience-information">
+          <p className="puesto">Desarrollador de Software - Layla E.I.R.L</p>
+          <p className="date">Enero 2022 - Actualidad</p>
+          <ul className="list-task">
+            <li>
+              Implementación de software para la gestión de inventario y
+              comprobantes electrónicos.
+            </li>
+            <li>Gestión y soporte de servicios basados en la nube.</li>
+            <li>
+              Implementación de un servidor de archivos utilizando Samba en un
+              servidor Linux.
+            </li>
+            <li>Soporte técnico del hardware</li>
             <li>Administración y gestión de base de datos.</li>
           </ul>
         </div>

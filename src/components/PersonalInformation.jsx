@@ -1,6 +1,6 @@
 import { Image } from "primereact/image";
 import profile from "../assets/images/profile.png";
-import looking from "../assets/images/looking.svg";
+// import looking from "../assets/images/looking.svg";
 import cv from "../assets/docs/cv.pdf";
 import "../styles/personal.css";
 
@@ -12,13 +12,14 @@ export default function PersonalInformation() {
         <div className="information">
           <p className="name">German Cordova</p>
           <p className="description">
-            Soy un desarrollador de software con una amplia experiencia en el diseño e implementacion de soluciones tecnologicas.
+            Bachiller en Ingeniería de software con experiencia en el
+            desarrollo, análisis e implementación de soluciones tecnológicas.
           </p>
           <div className="icons flex justify-content-start align-items-center">
-            <div className="looking-icon">
+            {/* <div className="looking-icon">
               <img src={looking} alt="looking-work" className="looking" />
-            </div>
-            <div className="resume-icon mx-3">
+            </div> */}
+            <div className="resume-icon">
               <a
                 href={cv}
                 rel="noreferrer"

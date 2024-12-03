@@ -1,10 +1,12 @@
 import ProjectTemplate from "../components/ProjectTemplate";
 import project1 from "../assets/images/prj-1.png";
 import project2 from "../assets/images/prj-2.png";
-import project3 from "../assets/images/prj-3.png";
-import project4 from "../assets/images/prj-4.png";
+// import project3 from "../assets/images/prj-3.png";
+// import project4 from "../assets/images/prj-4.png";
 import project5 from "../assets/images/prj-5.png";
 import project6 from "../assets/images/prj-6.png";
+import project7 from "../assets/images/prj-7.png";
+import project8 from "../assets/images/prj-8.png";
 import bootstrap from "../assets/icons/Bootstrap.png";
 import react from "../assets/icons/React.png";
 import laravel from "../assets/icons/Laravel.png";
@@ -12,6 +14,8 @@ import php from "../assets/icons/Php.png";
 import sql from "../assets/icons/Sql.png";
 import figma from "../assets/icons/Figma.png";
 import vue from "../assets/icons/Vue.png";
+import node from "../assets/icons/nodejs.png";
+import linux from "../assets/icons/Linux.png";
 
 export default function Project() {
   const stack1 = [
@@ -28,10 +32,17 @@ export default function Project() {
   ];
 
   const stack3 = [
-    { id:1, icon: laravel },
-    { id:2, icon: vue },
-    { id:3, icon: sql }
-  ]
+    { id: 1, icon: laravel },
+    { id: 2, icon: vue },
+    { id: 3, icon: sql },
+  ];
+
+  const stack4 = [
+    { id: 1, icon: react },
+    { id: 2, icon: node },
+    { id: 3, icon: sql },
+    { id: 4, icon: linux },
+  ];
 
   return (
     <>
@@ -57,6 +68,22 @@ export default function Project() {
           </svg>
         </div>
         <div className="project-information">
+          <ProjectTemplate
+            image={project8}
+            title="GH Bus Streaming - Software Privado"
+            description="Web interactiva para la reproduccion de contenido multimendia para buses."
+            prjSkills={stack4}
+            // url="https://ghbus.com.pe/"
+            // btnName="Live"
+          />
+          <ProjectTemplate
+            image={project7}
+            title="GH Bus"
+            description="Web interactiva para la venta de pasajes online."
+            prjSkills={stack4}
+            url="https://ghbus.com.pe/"
+            btnName="Live"
+          />
           <ProjectTemplate
             image={project6}
             title="Argus ERP - Software Privado"
@@ -89,22 +116,22 @@ export default function Project() {
             url="https://www.lab-u.pe/"
             btnName="Live"
           />
-          <ProjectTemplate
+          {/* <ProjectTemplate
             image={project3}
             title="BookHub"
             description="Web especializada en la venta de libros electronicos."
             prjSkills={stack2}
             url="https://github.com/gdaniel159/BookHub"
             btnName="Source"
-          />
-          <ProjectTemplate
+          /> */}
+          {/* <ProjectTemplate
             image={project4}
             title="Fast Computer - Software Privado"
             description="Web para el sector computacional especializada en la venta de computadoras."
             prjSkills={stack2}
             // url="https://github.com/gdaniel159/FastComputer"
             // btnName="Source"
-          />
+          /> */}
         </div>
       </div>
     </>
