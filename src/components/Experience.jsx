@@ -26,9 +26,9 @@ export default function Experience() {
         </div>
         <div className="experience-information">
           <p className="puesto">
-            Freelancer - Empresa de transporte Grupo Horna S.A.C
+            Desarrollador de software - Empresa de transporte Grupo Horna S.A.C
           </p>
-          <p className="date">Octubre 2024 - Enero 2024</p>
+          <p className="date">Octubre 2024 - Actualidad</p>
           <ul className="list-task">
             <li>
               Desarrollo de una pagina web interactiva con pasarela de pagos.
