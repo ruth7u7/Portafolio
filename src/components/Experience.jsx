@@ -26,9 +26,9 @@ export default function Experience() {
         </div>
         <div className="experience-information">
           <p className="puesto">
-            Freelancer - Empresa de transporte Grupo Horna S.A.C
+            Desarrollador de software - Empresa de transporte Grupo Horna S.A.C
           </p>
-          <p className="date">Octubre 2024 - Enero 2024</p>
+          <p className="date">Octubre 2024 - Actualidad</p>
           <ul className="list-task">
             <li>
               Desarrollo de una pagina web interactiva con pasarela de pagos.
@@ -59,7 +59,7 @@ export default function Experience() {
         </div>
         <div className="experience-information">
           <p className="puesto">FullStack Developer - GetByte</p>
-          <p className="date">Jul 2023 - Dec 2023</p>
+          <p className="date">Julio 2023 - Diciembre 2023</p>
           <ul className="list-task">
             <li>Desarrollo de API REST con el framework Laravel.</li>
             <li>Desarrollo Web FrontEnd con el framework React JS.</li>
@@ -75,7 +75,7 @@ export default function Experience() {
         </div>
         <div className="experience-information">
           <p className="puesto">Desarrollador de Software - Layla E.I.R.L</p>
-          <p className="date">Enero 2022 - Actualidad</p>
+          <p className="date">Enero 2022 - Diciembre 2024</p>
           <ul className="list-task">
             <li>
               Implementación de software para la gestión de inventario y
