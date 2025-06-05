@@ -1,16 +1,16 @@
 import { Image } from "primereact/image";
 import bootstrap from "../assets/icons/Bootstrap.png";
-import django from "../assets/icons/Django.png";
 import git from "../assets/icons/Git.png";
 import github from "../assets/icons/Github.png";
 import laravel from "../assets/icons/Laravel.png";
-import linux from "../assets/icons/Linux.png";
 import python from "../assets/icons/Python.png";
 import react from "../assets/icons/React.png";
 import sql from "../assets/icons/Sql.png";
 import figma from "../assets/icons/Figma.png";
 import vue from "../assets/icons/Vue.png";
-import nodejs from "../assets/icons/nodejs.png";
+// import nodejs from "../assets/icons/nodejs.png";
+import bizagi from "../assets/icons/bizagi-modeler.png";
+import kali from "../assets/icons/kali_linux.png";  
 import "../styles/skills.css";
 
 export default function Skills() {
@@ -95,6 +95,7 @@ export default function Skills() {
             />
             <p>Bootstrap</p>
           </div>
+
           <div className="containerSkill">
             <Image
               className="git"
@@ -106,6 +107,7 @@ export default function Skills() {
             />
             <p>Git</p>
           </div>
+
           <div className="containerSkill">
             <Image
               className="github"
@@ -117,17 +119,7 @@ export default function Skills() {
             />
             <p>Github</p>
           </div>
-          <div className="containerSkill">
-            <Image
-              className="django"
-              alt="django"
-              src={django}
-              title="Django"
-              width="45"
-              height="auto"
-            />
-            <p>Django</p>
-          </div>
+
           <div className="containerSkill">
             <Image
               className="react"
@@ -139,6 +131,7 @@ export default function Skills() {
             />
             <p>React</p>
           </div>
+
           <div className="containerSkill">
             <Image
               className="laravel"
@@ -150,6 +143,7 @@ export default function Skills() {
             />
             <p>Laravel</p>
           </div>
+
           <div className="containerSkill">
             <Image
               className="sql"
@@ -161,6 +155,7 @@ export default function Skills() {
             />
             <p>SQL</p>
           </div>
+
           <div className="containerSkill">
             <Image
               className="python"
@@ -172,17 +167,7 @@ export default function Skills() {
             />
             <p>Python</p>
           </div>
-          <div className="containerSkill">
-            <Image
-              className="linux"
-              alt="linux"
-              src={linux}
-              title="Linux"
-              width="45"
-              height="auto"
-            />
-            <p>Linux</p>
-          </div>
+
           <div className="containerSkill">
             <Image
               className="figma"
@@ -194,6 +179,7 @@ export default function Skills() {
             />
             <p>Figma</p>
           </div>
+
           <div className="containerSkill">
             <Image
               className="vue"
@@ -205,7 +191,32 @@ export default function Skills() {
             />
             <p>Vue</p>
           </div>
+
           <div className="containerSkill">
+            <Image
+              className="bizagi"
+              alt="bizagi"
+              src={bizagi}
+              title="bizagi"
+              width="70"
+              height="auto"
+            />
+            <p>Bizagi Modeler</p>
+          </div>
+
+          <div className="containerSkill">
+            <Image
+              className="Kali Linux"
+              alt="Kali Linux"
+              src={kali}
+              title="Kali Linux"
+              width="50"
+              height="auto"
+            />
+            <p>Kali Linux</p>
+          </div>
+
+          {/* <div className="containerSkill">
             <Image
               className="nodejs"
               alt="nodejs"
@@ -215,7 +226,7 @@ export default function Skills() {
               height="auto"
             />
             <p>NodeJs</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

@@ -26,67 +26,41 @@ export default function Experience() {
         </div>
         <div className="experience-information">
           <p className="puesto">
-            Desarrollador de software - Empresa de transporte Grupo Horna S.A.C
+            Desarrollador de software - DIRCE - Universidad nacional de ingeniería 
           </p>
-          <p className="date">Octubre 2024 - Actualidad</p>
+          <p className="date">Junio 2024 - Enero 2025</p>
           <ul className="list-task">
-            <li>
-              Desarrollo de una pagina web interactiva con pasarela de pagos.
-            </li>
-            <li>Administración de servidores.</li>
-            <li>Implementación de un servicio de streaming.</li>
-            <li>
-              Gestión y soporte en el uso del software de venta de pasajes.
-            </li>
-            <li>Administración y gestión de base de datos.</li>
+            <li>Desarrollo UX/UI utilizando Figma.</li>
+            <li>Modelado de procesos utilizando Bizagi.</li>
+            <li>Diseño de Base de Datos con Data Modeler</li>
+            <li>Desarrollo de Base de Datos mediante SQL Developer (Oracle).</li>
+            <li>Migración de un sistema en php puro a Laravel.</li>
+            <li>Desarrollo Fullstack con Frameworks como Laravel, Flask y Vue</li>
+            <li>Manejo de herramientas como Git para control de versiones.</li>
           </ul>
         </div>
         <div className="experience-information">
           <p className="puesto">
-            Analista Programador - GEMMaster Business Solutions
+            Desarrollador - Comprenda
           </p>
-          <p className="date">Enero 2024 - Octubre 2024</p>
+          <p className="date">
+          Marzo 2024 - Junio 2024</p>
           <ul className="list-task">
-            <li>Gestión de una aplicación web ERP.</li>
-            <li>Desarrollo de API REST con el framework Laravel.</li>
-            <li>Desarrollo Web FrontEnd con el framework Vue JS.</li>
-            <li>
-              Implementación de actualizaciones y optimización de estructura del
-              sistema.
-            </li>
-            <li>Administración y gestión de base de datos.</li>
+            <li> Desarrollo de una interfaz web utilizando React.js para presentar información de manera dinámica.</li>
+            <li> Consumo e integración de APIs externas para mostrar datos en tiempo real.</li>
+            <li>Implementación de estilos básicos y estructura de componentes en React.</li>
+            <li>Manejo de herramientas como Git para control de versiones.</li>
           </ul>
         </div>
         <div className="experience-information">
-          <p className="puesto">FullStack Developer - GetByte</p>
-          <p className="date">Julio 2023 - Diciembre 2023</p>
+          <p className="puesto">
+            Backend Developer - GetByte</p>
+          <p className="date">
+            Julio 2023 - Diciembre 2023</p>
           <ul className="list-task">
             <li>Desarrollo de API REST con el framework Laravel.</li>
-            <li>Desarrollo Web FrontEnd con el framework React JS.</li>
-            <li>
-              Integración de API REST para la gestión de exámenes ocupacionales.
-            </li>
-            <li>
-              Implementación de web para exámenes ocupacionales y exámenes de
-              laboratorio.
-            </li>
-            <li>Administración y gestión de base de datos.</li>
-          </ul>
-        </div>
-        <div className="experience-information">
-          <p className="puesto">Desarrollador de Software - Layla E.I.R.L</p>
-          <p className="date">Enero 2022 - Diciembre 2024</p>
-          <ul className="list-task">
-            <li>
-              Implementación de software para la gestión de inventario y
-              comprobantes electrónicos.
-            </li>
-            <li>Gestión y soporte de servicios basados en la nube.</li>
-            <li>
-              Implementación de un servidor de archivos utilizando Samba en un
-              servidor Linux.
-            </li>
-            <li>Soporte técnico del hardware</li>
+            <li>Documentación de APIS con Swagger</li>
+            <li>Desarrollo de PDFs para exámenes ocupacionales y de Laboratorio</li>
             <li>Administración y gestión de base de datos.</li>
           </ul>
         </div>

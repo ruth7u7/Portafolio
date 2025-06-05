@@ -1,12 +1,7 @@
 import ProjectTemplate from "../components/ProjectTemplate";
-import project1 from "../assets/images/prj-1.png";
 import project2 from "../assets/images/prj-2.png";
-// import project3 from "../assets/images/prj-3.png";
-// import project4 from "../assets/images/prj-4.png";
-import project5 from "../assets/images/prj-5.png";
-import project6 from "../assets/images/prj-6.png";
-import project7 from "../assets/images/prj-7.png";
-import project8 from "../assets/images/prj-8.png";
+import project3 from "../assets/images/prj-3.png";
+import project9 from "../assets/images/prj-1.png";
 import bootstrap from "../assets/icons/Bootstrap.png";
 import react from "../assets/icons/React.png";
 import laravel from "../assets/icons/Laravel.png";
@@ -19,29 +14,20 @@ import linux from "../assets/icons/Linux.png";
 
 export default function Project() {
   const stack1 = [
-    // { id: 1, icon: bootstrap },
     { id: 2, icon: react },
     { id: 3, icon: laravel },
     { id: 4, icon: figma },
   ];
 
-  const stack2 = [
-    { id: 1, icon: bootstrap },
-    { id: 2, icon: php },
-    { id: 3, icon: sql },
-  ];
-
-  const stack3 = [
+  const stackSRF = [
     { id: 1, icon: laravel },
     { id: 2, icon: vue },
-    { id: 3, icon: sql },
   ];
 
-  const stack4 = [
+  const stack5 = [
     { id: 1, icon: react },
-    { id: 2, icon: node },
-    { id: 3, icon: sql },
-    { id: 4, icon: linux },
+    // { id: 2, icon: bootstrap },
+    // { id: 3, icon: node },
   ];
 
   return (
@@ -69,36 +55,18 @@ export default function Project() {
         </div>
         <div className="project-information">
           <ProjectTemplate
-            image={project8}
-            title="GH Bus Streaming - Software Privado"
-            description="Web interactiva para la reproduccion de contenido multimendia para buses."
-            prjSkills={stack4}
-            // url="https://ghbus.com.pe/"
-            // btnName="Live"
-          />
-          <ProjectTemplate
-            image={project7}
-            title="GH Bus"
-            description="Web interactiva para la venta de pasajes online."
-            prjSkills={stack4}
-            url="https://ghbus.com.pe/"
+            image={project9}
+            title="Proyecto Servicios Base"
+            description="Sitio web con el objetivo de crear un sistema de gestión de servicios a domicilio con la opción de utilizar Web 3.0"
+            prjSkills={stack5}
+            url="https://proyectoservicios-vkg7.onrender.com/"
             btnName="Live"
           />
           <ProjectTemplate
-            image={project6}
-            title="Argus ERP - Software Privado"
-            description="Solución web dirigida a controlar y automatizar los procesos de negocio de pequeñas, medianas y grandes empresas."
-            prjSkills={stack3}
-            // url="https://demo.sistema-argus.com/dashboard"
-            // btnName="Live"
-          />
-          <ProjectTemplate
-            image={project1}
-            title="Layla - Sistema de facturacion - Software Privado"
-            description="Solucion web dirigida a la gestion de inventario y generacion de comprobantes electronicos."
-            prjSkills={stack1}
-            // url="https://dmx-offroad.netlify.app/"
-            // btnName="Live"
+            image={project3}
+            title="SRF Asistencia - Software Privado"
+            description="Sistema de control de asistencia desarrollado para la Universidad Nacional de Ingeniería (UNI)."
+            prjSkills={stackSRF}
           />
           <ProjectTemplate
             image={project2}
@@ -108,30 +76,6 @@ export default function Project() {
             url="https://bregma.com.pe/"
             btnName="Live"
           />
-          <ProjectTemplate
-            image={project5}
-            title="Lab-U"
-            description="Web diseñada para la adquisicion examenes de laboratorio cerca a tu localidad."
-            prjSkills={stack1}
-            url="https://www.lab-u.pe/"
-            btnName="Live"
-          />
-          {/* <ProjectTemplate
-            image={project3}
-            title="BookHub"
-            description="Web especializada en la venta de libros electronicos."
-            prjSkills={stack2}
-            url="https://github.com/gdaniel159/BookHub"
-            btnName="Source"
-          /> */}
-          {/* <ProjectTemplate
-            image={project4}
-            title="Fast Computer - Software Privado"
-            description="Web para el sector computacional especializada en la venta de computadoras."
-            prjSkills={stack2}
-            // url="https://github.com/gdaniel159/FastComputer"
-            // btnName="Source"
-          /> */}
         </div>
       </div>
     </>
