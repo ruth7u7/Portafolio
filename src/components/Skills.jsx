@@ -8,9 +8,8 @@ import react from "../assets/icons/React.png";
 import sql from "../assets/icons/Sql.png";
 import figma from "../assets/icons/Figma.png";
 import vue from "../assets/icons/Vue.png";
-// import nodejs from "../assets/icons/nodejs.png";
 import bizagi from "../assets/icons/bizagi-modeler.png";
-import kali from "../assets/icons/kali_linux.png";  
+import kali from "../assets/icons/Kali_Linux.png";  
 import "../styles/skills.css";
 
 export default function Skills() {
