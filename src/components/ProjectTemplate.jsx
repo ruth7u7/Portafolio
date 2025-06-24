@@ -8,13 +8,16 @@ export default function ProjectTemplate({
   description,
   prjSkills,
   url,
-  btnName
+  btnName,
+  url2,
+  btnName2,
 }) {
-  const handleLiveButtonClick = () => {
-    if (url) {
-      window.location.href = url;
+  const handleButtonClick = (targetUrl) => {
+    if (targetUrl) {
+      window.open(targetUrl, "_blank", "noopener,noreferrer");
     }
   };
+
   return (
     <>
       <div className="container-project flex align-items-center">
@@ -37,9 +40,24 @@ export default function ProjectTemplate({
                 />
               ))}
           </div>
-          <button className={`btnLive ${!btnName && 'hidden'}`} onClick={handleLiveButtonClick}>
-            {btnName}
-          </button>
+          <div className="flex" style={{ gap: "1rem", marginTop: "1rem" }}>
+            {btnName && url && (
+              <button
+                className="btnLive"
+                onClick={() => handleButtonClick(url)}
+              >
+                {btnName}
+              </button>
+            )}
+            {btnName2 && url2 && (
+              <button
+                className="btnLive"
+                onClick={() => handleButtonClick(url2)}
+              >
+                {btnName2}
+              </button>
+            )}
+          </div>
         </div>
       </div>
     </>
@@ -52,5 +70,7 @@ ProjectTemplate.propTypes = {
   description: PropTypes.string.isRequired,
   prjSkills: PropTypes.arrayOf(PropTypes.object).isRequired,
   url: PropTypes.string,
-  btnName: PropTypes.string
+  btnName: PropTypes.string,
+  url2: PropTypes.string,
+  btnName2: PropTypes.string,
 };

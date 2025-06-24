@@ -65,7 +65,7 @@ export default function Project() {
             - imagen de lo que se pudo recuperar del proyecto"
             prjSkills={stack6}
             url= "https://github.com/ruth7u7/tareas"
-            btnName="Github"
+            btnName="GitHub"
           />
           <ProjectTemplate
             image={project9}
@@ -74,6 +74,8 @@ export default function Project() {
             prjSkills={stack5}
             url="https://proyectoservicios-vkg7.onrender.com/"
             btnName="Live"
+            url2="https://github.com/ruth7u7/proyecto_servicios_base"
+            btnName2= "GitHub"
           />
           <ProjectTemplate
             image={project3}

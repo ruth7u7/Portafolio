@@ -1,7 +1,7 @@
 import { Image } from "primereact/image";
 import profile from "../assets/images/foto_cv.png";
 // import looking from "../assets/images/looking.svg";
-import cv from "../assets/docs/CurriculumVitae_Ruth Peña.pdf";
+import cv from "../assets/docs/CV_Ruth Peña.pdf";
 import "../styles/personal.css";
 
 export default function PersonalInformation() {
