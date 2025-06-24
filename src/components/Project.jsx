@@ -2,15 +2,16 @@ import ProjectTemplate from "../components/ProjectTemplate";
 import project2 from "../assets/images/prj-2.png";
 import project3 from "../assets/images/prj-3.png";
 import project9 from "../assets/images/prj-1.png";
-import bootstrap from "../assets/icons/Bootstrap.png";
+import project10 from "../assets/images/prj-10.jpg";
+// import bootstrap from "../assets/icons/Bootstrap.png";
 import react from "../assets/icons/React.png";
 import laravel from "../assets/icons/Laravel.png";
 import php from "../assets/icons/Php.png";
-import sql from "../assets/icons/Sql.png";
+// import sql from "../assets/icons/Sql.png";
 import figma from "../assets/icons/Figma.png";
 import vue from "../assets/icons/Vue.png";
-import node from "../assets/icons/nodejs.png";
-import linux from "../assets/icons/Linux.png";
+// import node from "../assets/icons/nodejs.png";
+// import linux from "../assets/icons/Linux.png";
 
 export default function Project() {
   const stack1 = [
@@ -26,8 +27,11 @@ export default function Project() {
 
   const stack5 = [
     { id: 1, icon: react },
-    // { id: 2, icon: bootstrap },
-    // { id: 3, icon: node },
+  ];
+
+  const stack6 = [
+    {id: 1, icon: react},
+    {id: 2, icon: php}
   ];
 
   return (
@@ -54,6 +58,15 @@ export default function Project() {
           </svg>
         </div>
         <div className="project-information">
+          <ProjectTemplate style
+            image={project10}
+            title="Gestor de tareas - Software privado"
+            description="Primera fase de un Gestor de tareas 
+            - imagen de lo que se pudo recuperar del proyecto"
+            prjSkills={stack6}
+            url= "https://github.com/ruth7u7/tareas"
+            btnName="Github"
+          />
           <ProjectTemplate
             image={project9}
             title="Proyecto Servicios Base"
