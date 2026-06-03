@@ -1,4 +1,3 @@
-import { Image } from "primereact/image";
 import bootstrap from "../assets/icons/Bootstrap.png";
 import git from "../assets/icons/Git.png";
 import github from "../assets/icons/Github.png";
@@ -9,8 +8,32 @@ import sql from "../assets/icons/Sql.png";
 import figma from "../assets/icons/Figma.png";
 import vue from "../assets/icons/Vue.png";
 import bizagi from "../assets/icons/bizagi-modeler.png";
-import kali from "../assets/icons/Kali_Linux.png";  
+import kali from "../assets/icons/Kali_Linux.png";
+import nextjs from "../assets/icons/nextjs.png";
+import fastapi from "../assets/icons/FastAPI.png";
+import nodejs from "../assets/icons/Node.js.png";
+import supabase from "../assets/icons/supabase.png";
+import cloudflare from "../assets/icons/Cloudflare.png";
 import "../styles/skills.css";
+
+const skillsList = [
+  { name: "Bootstrap", icon: bootstrap },
+  { name: "Git", icon: git },
+  { name: "Github", icon: github },
+  { name: "Next.js", icon: nextjs },
+  { name: "React", icon: react },
+  { name: "Node.js", icon: nodejs },
+  { name: "FastAPI", icon: fastapi },
+  { name: "Supabase", icon: supabase },
+  { name: "Cloudflare", icon: cloudflare },
+  { name: "Laravel", icon: laravel },
+  { name: "SQL", icon: sql },
+  { name: "Python", icon: python },
+  { name: "Figma", icon: figma },
+  { name: "Vue", icon: vue },
+  { name: "Bizagi Modeler", icon: bizagi },
+  { name: "Kali Linux", icon: kali },
+];
 
 export default function Skills() {
   return (
@@ -82,150 +105,15 @@ export default function Skills() {
             </defs>
           </svg>
         </div>
-        <div className="icons-section flex flex-wrap justify-content-center">
-          <div className="containerSkill">
-            <Image
-              className="bootstrap"
-              alt="bootstrap"
-              src={bootstrap}
-              title="Bootstrap"
-              width="45"
-              height="auto"
-            />
-            <p>Bootstrap</p>
-          </div>
-
-          <div className="containerSkill">
-            <Image
-              className="git"
-              alt="git"
-              src={git}
-              title="Git"
-              width="45"
-              height="auto"
-            />
-            <p>Git</p>
-          </div>
-
-          <div className="containerSkill">
-            <Image
-              className="github"
-              alt="github"
-              src={github}
-              title="Github"
-              width="45"
-              height="auto"
-            />
-            <p>Github</p>
-          </div>
-
-          <div className="containerSkill">
-            <Image
-              className="react"
-              alt="react"
-              src={react}
-              title="React"
-              width="45"
-              height="auto"
-            />
-            <p>React</p>
-          </div>
-
-          <div className="containerSkill">
-            <Image
-              className="laravel"
-              alt="laravel"
-              src={laravel}
-              title="Laravel"
-              width="45"
-              height="auto"
-            />
-            <p>Laravel</p>
-          </div>
-
-          <div className="containerSkill">
-            <Image
-              className="sql"
-              alt="sql"
-              src={sql}
-              title="Sql"
-              width="45"
-              height="auto"
-            />
-            <p>SQL</p>
-          </div>
-
-          <div className="containerSkill">
-            <Image
-              className="python"
-              alt="python"
-              src={python}
-              title="Python"
-              width="45"
-              height="auto"
-            />
-            <p>Python</p>
-          </div>
-
-          <div className="containerSkill">
-            <Image
-              className="figma"
-              alt="figma"
-              src={figma}
-              title="Figma"
-              width="45"
-              height="auto"
-            />
-            <p>Figma</p>
-          </div>
-
-          <div className="containerSkill">
-            <Image
-              className="vue"
-              alt="vue"
-              src={vue}
-              title="Vue"
-              width="45"
-              height="auto"
-            />
-            <p>Vue</p>
-          </div>
-
-          <div className="containerSkill">
-            <Image
-              className="bizagi"
-              alt="bizagi"
-              src={bizagi}
-              title="bizagi"
-              width="70"
-              height="auto"
-            />
-            <p>Bizagi Modeler</p>
-          </div>
-
-          <div className="containerSkill">
-            <Image
-              className="Kali Linux"
-              alt="Kali Linux"
-              src={kali}
-              title="Kali Linux"
-              width="50"
-              height="auto"
-            />
-            <p>Kali Linux</p>
-          </div>
-
-          {/* <div className="containerSkill">
-            <Image
-              className="nodejs"
-              alt="nodejs"
-              src={nodejs}
-              title="NodeJS"
-              width="45"
-              height="auto"
-            />
-            <p>NodeJs</p>
-          </div> */}
+        <div className="icons-section">
+          {skillsList.map((skill) => (
+            <div key={skill.name} className="containerSkill">
+              <div className="skill-icon-box">
+                <img src={skill.icon} alt={skill.name} title={skill.name} />
+              </div>
+              <p>{skill.name}</p>
+            </div>
+          ))}
         </div>
       </div>
     </>

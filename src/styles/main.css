@@ -7,66 +7,78 @@
 
 body {
   color: #fff;
-  background: linear-gradient(#3D53CA,#FB8CB0);
+  background: linear-gradient(145deg, #3d53ca 0%, #5c4fad 42%, #c76bab 78%, #fb8cb0 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 12% 18%, rgba(255, 255, 255, 0.14) 0%, transparent 42%),
+    radial-gradient(circle at 88% 72%, rgba(255, 255, 255, 0.1) 0%, transparent 38%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.page {
+  position: relative;
+  z-index: 1;
+  padding: 24px 0 48px;
 }
 
 .container {
-  width: 50%;
-  margin: 30px auto;
-  padding: 20px;
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.personal-information {
-  width: 80%;
-  margin: auto;
+.section-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 22px;
+  box-shadow: 0 12px 40px rgba(32, 49, 90, 0.18);
+  margin-bottom: 28px;
+  padding: 32px 36px;
 }
 
-.personal-information .information .name {
-  /* color: #384a72; */
-  font-family: Inter;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin-top: 10px;
+.section-card--hero {
+  padding: 40px 36px;
 }
 
-.personal-information .information .description {
-  /* color: #5f5f5f; */
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px;
-  flex-shrink: 0;
-  margin-top: 8px;
-}
-
-.looking-icon {
+.section-card--compact {
   display: flex;
-  width: 40px;
-  height: 40px;
-  padding: 12px 10px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  border-radius: 10px;
-  background: #a7f3d0;
+  flex-direction: column;
+  gap: 28px;
 }
 
-.looking-icon .looking {
-  width: 20px;
-  height: 20px;
+.section-card .experience-container,
+.section-card .projects-container,
+.section-card .skills-container,
+.section-card .social-container,
+.section-card .email-container,
+.section-card .courses-container {
+  margin-top: 0;
+  width: 100%;
 }
 
 .resume-icon {
-  padding: 8px 15px;
+  padding: 10px 18px;
   gap: 10px;
   flex-shrink: 0;
-  background: #e0e7ff;
-  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(32, 49, 90, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.resume-icon:hover {
+  box-shadow: 0 6px 20px rgba(32, 49, 90, 0.28);
+  transform: translateY(-2px);
 }
 
 .resume-icon a {
@@ -74,24 +86,11 @@ body {
 }
 
 .resume-icon .resume-text {
-  /* color: #6366f1; */
-  font-family: Inter;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
+  color: #3d53ca;
+  font-size: 16px;
+  font-weight: 600;
   line-height: 20px;
   margin-left: 10px;
-}
-
-.experience-container,
-.projects-container,
-.skills-container,
-.social-container,
-.email-container,
-.courses-container {
-  width: 80%;
-  margin: auto;
-  margin-top: 20px;
 }
 
 .experience-container .title-experience,
@@ -100,40 +99,47 @@ body {
 .social-container .title-social,
 .email-container .title-email,
 .courses-container .title-courses {
-  /* color: #5fdfff; */
-  font-family: Inter;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 600;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 700;
   line-height: normal;
+  margin-bottom: 24px;
+  padding-bottom: 14px;
+  text-shadow: 0 1px 4px rgba(29, 35, 80, 0.2);
+  width: 100%;
 }
 
-@media screen and (max-width: 1440px) {
-  .container {
-    width: 60%;
-  }
+.site-footer {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 13px;
+  margin-top: 8px;
+  padding: 16px 0 8px;
+  text-align: center;
 }
 
-@media screen and (max-width: 1280px) {
-  .container {
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .container {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .container {
-    width: 90%;
-  }
+.site-footer p {
+  letter-spacing: 0.04em;
 }
 
 @media screen and (max-width: 768px) {
-  .container {
-    width: 100%;
+  .section-card {
+    border-radius: 18px;
+    margin-bottom: 20px;
+    padding: 20px 16px;
+  }
+
+  .section-card--hero {
+    padding: 24px 16px;
+  }
+
+  .experience-container .title-experience,
+  .projects-container .title-project,
+  .skills-container .title-skills,
+  .social-container .title-social,
+  .email-container .title-email {
+    font-size: 1.25rem;
+    margin-bottom: 18px;
   }
 }

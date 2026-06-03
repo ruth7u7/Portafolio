@@ -1,29 +1,62 @@
 .icons-section {
-    margin: 20px 0;
-    /* border: 1px solid #000; */
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(82px, 1fr));
+  margin: 4px 0;
 }
 
 .containerSkill {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 8px 10px;
-    /* border: 1px solid #000; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 0;
+  padding: 8px 4px;
 }
 
-@media screen and (max-width: 1440px) {
-    .icons-section {
-        flex-wrap: wrap;
-    }
+.containerSkill .skill-icon-box {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 44px;
+  justify-content: center;
+  width: 44px;
 }
 
-@media screen and (max-width: 768px) {
-    .icons-section {
-        flex-wrap: wrap;
-    }
-    .icons-section img {
-        width: 50px;
-        height: auto;
-    }
+.containerSkill .skill-icon-box img {
+  display: block;
+  max-height: 40px;
+  max-width: 40px;
+  object-fit: contain;
+}
+
+.containerSkill .skill-icon-box .p-image img {
+  display: block;
+  max-height: 40px;
+  max-width: 40px;
+  object-fit: contain;
+}
+
+.containerSkill .skill-icon-box .p-image {
+  align-items: center;
+  display: flex;
+  height: 44px;
+  justify-content: center;
+  width: 44px;
+}
+
+.containerSkill p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.25;
+  margin-top: 6px;
+  text-align: center;
+  word-break: break-word;
+}
+
+@media screen and (max-width: 480px) {
+  .icons-section {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }

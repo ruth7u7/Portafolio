@@ -44,7 +44,7 @@ export default function Email() {
             />
           </svg>
         </div>
-        <div className="email-content flex align-items-center mt-4">
+        <div className="email-content flex align-items-center">
           <InputText
             type="email"
             placeholder="ruthg.penav@gmail.com"

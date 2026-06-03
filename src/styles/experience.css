@@ -1,33 +1,42 @@
 .experience-information {
-  margin: 20px 0;
+  border-left: 2px solid rgba(255, 255, 255, 0.35);
+  margin: 18px 0 0;
+  padding: 0 0 4px 18px;
+}
+
+.experience-information--featured {
+  border-left-color: #fff;
 }
 
 .experience-information .puesto {
   color: #fff;
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 6px;
 }
 
 .experience-information .date {
-  color: #9c9c9c;
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
+  color: #e8ecff;
+  font-size: 13px;
   font-weight: 500;
-  line-height: normal;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  opacity: 0.9;
 }
 
 .experience-information .list-task {
-  margin: 0 40px;
-  line-height: 30px;
-  color: #fff;
-  font-family: Inter;
-  font-size: 15px;
-  font-style: normal;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 14px;
   font-weight: 300;
+  line-height: 1.6;
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.experience-information .list-task li {
+  margin-bottom: 5px;
+}
+
+.experience-information .list-task li::marker {
+  color: #e8ecff;
 }

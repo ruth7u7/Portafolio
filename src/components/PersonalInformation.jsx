@@ -8,13 +8,22 @@ export default function PersonalInformation() {
   return (
     <>
       <div className="personal-information flex justify-content-center align-items-center">
-        <Image src={profile} alt="Image" width="180" className="mr-4" />
+        <div className="profile-wrapper mr-4">
+          <Image src={profile} alt="Ruth Grecia Peña Valdez" width="180" />
+        </div>
         <div className="information">
+          <span className="role-badge">Desarrolladora Full Stack</span>
           <p className="name">Ruth Grecia Peña Valdez</p>
           <p className="description">
-          Egresada en Ingeniería de Software con Inteligencia Artificial, con 1 año y medio de experiencia en desarrollo backend con Laravel.
-          Experiencia en diseño, planificación y desarrollo de proyectos.
+            Egresada en Ingeniería de Software con Inteligencia Artificial.
+            Experiencia en E-commerce B2B, LegalTech, integración de LLMs y
+            arquitecturas con Laravel, React, FastAPI y PostgreSQL/Supabase.
           </p>
+          <div className="hero-highlights">
+            <span>E-commerce & IA</span>
+            <span>LegalTech</span>
+            <span>CRM & dashboards</span>
+          </div>
           <div className="icons flex justify-content-start align-items-center">
             {/* <div className="looking-icon">
               <img src={looking} alt="looking-work" className="looking" />

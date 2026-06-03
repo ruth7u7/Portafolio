@@ -24,6 +24,55 @@ export default function Experience() {
             />
           </svg>
         </div>
+        <div className="experience-information experience-information--featured">
+          <p className="puesto">
+            Programadora Full Stack — INXORA
+          </p>
+          <p className="date">Julio 2025 - Mayo 2026</p>
+          <ul className="list-task">
+            <li>
+              Desarrollo integral de E-commerce con catálogo de productos, flujo de compra, CRM y dashboards analíticos.
+            </li>
+            <li>
+              Diseño e implementación de AI Orchestrator utilizando FastAPI y GPT-4o Mini para asistentes inteligentes de productos.
+            </li>
+            <li>
+              Arquitectura de instrucciones dinámicas en Markdown para routing de intenciones hacia APIs específicas.
+            </li>
+            <li>
+              Integración de modelos LLM con servicios propios para consultas en tiempo real sobre bases de datos y generación automatizada de cotizaciones.
+            </li>
+            <li>
+              Implementación de facturación electrónica mediante certificado digital para la emisión y validación de comprobantes electrónicos.
+            </li>
+            <li>
+              Desarrollo de estrategias de SEO técnico y análisis de métricas de negocio.
+            </li>
+          </ul>
+        </div>
+        <div className="experience-information">
+          <p className="puesto">
+            Full Stack Developer (Freelance) — LEGALADO
+          </p>
+          <p className="date">Noviembre 2025 - Febrero 2026</p>
+          <ul className="list-task">
+            <li>
+              Desarrollo de plataforma LegalTech para gestión de reclamos y denuncias ante entidades bancarias.
+            </li>
+            <li>
+              Implementación de Landing Page optimizada para SEO, blog de contenidos y CRM de administración de casos.
+            </li>
+            <li>
+              Automatización de documentos legales en formato .docx mediante plantillas dinámicas.
+            </li>
+            <li>
+              Integración con API RENIEC para validación de identidad y servicios de correo transaccional mediante SendGrid y Resend.
+            </li>
+            <li>
+              Modelado de base de datos en PostgreSQL/Supabase incluyendo triggers, funciones PL/pgSQL, historial de estados, soft delete y políticas RLS.
+            </li>
+          </ul>
+        </div>
         <div className="experience-information">
           <p className="puesto">
             Desarrollador de software - DIRCE - Universidad nacional de ingeniería 

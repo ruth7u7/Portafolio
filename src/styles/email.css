@@ -1,33 +1,49 @@
+.email-content {
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 .correo {
-    width: 520px;
-    margin-top: 8px;
+  flex: 1;
+  margin-top: 0;
+  min-width: 180px;
 }
 
 .actions {
-    margin-top: 8px;
+  margin-top: 0;
 }
 
 .email-content input {
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.05);
-    color: white;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  color: white;
+  width: 100%;
 }
 
 .email-content input::placeholder {
-    color: white; 
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.email-content .p-button {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: none !important;
+  color: #3d53ca !important;
+}
+
+.copy-success {
+  color: #e8ecff;
+  font-size: 13px;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-    .email-content {
-        flex-wrap: wrap;
-    }
-    
-    .email-content .correo {
-        width: 100%;
-    }
+  .email-content .correo {
+    width: 100%;
+  }
 
-    .email-content .actions {
-        width: 100%;
-        justify-content: center;
-    }
+  .email-content .actions {
+    justify-content: center;
+    width: 100%;
+  }
 }
