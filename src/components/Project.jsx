@@ -1,18 +1,9 @@
 import PropTypes from "prop-types";
 import ProjectTemplate from "../components/ProjectTemplate";
-import project2 from "../assets/images/prj-2.png";
 import project9 from "../assets/images/prj-1.png";
 import project10 from "../assets/images/prj-10.jpg";
 import react from "../assets/icons/React.png";
-import laravel from "../assets/icons/Laravel.png";
 import php from "../assets/icons/Php.png";
-import figma from "../assets/icons/Figma.png";
-
-const stack1 = [
-  { id: 2, icon: react },
-  { id: 3, icon: laravel },
-  { id: 4, icon: figma },
-];
 
 const stack5 = [{ id: 1, icon: react }];
 
@@ -77,14 +68,6 @@ export default function Project({
               btnName="Live"
               url2="https://github.com/ruth7u7/proyecto_servicios_base"
               btnName2="GitHub"
-            />
-            <ProjectTemplate
-              image={project2}
-              title="Bregma"
-              description="Web dirigida al sector de medicina corporativa."
-              prjSkills={stack1}
-              url="https://bregma.com.pe/"
-              btnName="Live"
             />
           </div>
         </>

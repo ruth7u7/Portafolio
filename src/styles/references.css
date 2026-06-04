@@ -1,0 +1,51 @@
+.references-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.reference-card {
+  background: rgba(32, 49, 90, 0.35);
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+
+.reference-card__name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.reference-card__role {
+  color: #e8ecff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 6px 0 0;
+}
+
+.reference-card__company {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 13px;
+  font-weight: 500;
+  margin: 4px 0 0;
+}
+
+.reference-card__phone {
+  align-items: center;
+  color: #fff;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 8px;
+  margin-top: 12px;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.reference-card__phone:hover {
+  opacity: 0.85;
+  text-decoration: underline;
+}

@@ -61,6 +61,7 @@ body::before {
 .section-card .skills-container,
 .section-card .social-container,
 .section-card .email-container,
+.section-card .references-container,
 .section-card .courses-container {
   margin-top: 0;
   width: 100%;
@@ -98,6 +99,7 @@ body::before {
 .skills-container .title-skills,
 .social-container .title-social,
 .email-container .title-email,
+.references-container .title-references,
 .courses-container .title-courses {
   align-items: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -138,7 +140,8 @@ body::before {
   .projects-container .title-project,
   .skills-container .title-skills,
   .social-container .title-social,
-  .email-container .title-email {
+  .email-container .title-email,
+  .references-container .title-references {
     font-size: 1.25rem;
     margin-bottom: 18px;
   }

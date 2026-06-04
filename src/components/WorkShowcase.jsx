@@ -1,4 +1,5 @@
 import ProjectTemplate from "./ProjectTemplate";
+import project2 from "../assets/images/prj-2.png";
 import project3 from "../assets/images/prj-3.png";
 import inxoraLogin from "../assets/images/inxora-login.png";
 import inxoraLanding from "../assets/images/inxora-landing.png";
@@ -11,6 +12,8 @@ import vue from "../assets/icons/Vue.png";
 import nextjs from "../assets/icons/nextjs.png";
 import fastapi from "../assets/icons/FastAPI.png";
 import nodejs from "../assets/icons/Node.js.png";
+import react from "../assets/icons/React.png";
+import figma from "../assets/icons/Figma.png";
 import "../styles/workShowcase.css";
 
 const stackInxora = [
@@ -26,6 +29,12 @@ const stackLegalado = [
 const stackSRF = [
   { id: 1, icon: laravel },
   { id: 2, icon: vue },
+];
+
+const stackBregma = [
+  { id: 1, icon: react },
+  { id: 2, icon: laravel },
+  { id: 3, icon: figma },
 ];
 
 const workBlocks = [
@@ -124,6 +133,26 @@ const workBlocks = [
       },
     ],
   },
+  {
+    id: "getbyte",
+    role: "Backend Developer — GetByte",
+    date: "Julio 2023 - Diciembre 2023",
+    tasks: [
+      "Desarrollo de API REST con el framework Laravel y documentación con Swagger.",
+      "Desarrollo de PDFs para exámenes ocupacionales y de laboratorio.",
+      "Administración y gestión de base de datos.",
+    ],
+    projects: [
+      {
+        image: project2,
+        title: "Bregma",
+        description: "Web dirigida al sector de medicina corporativa.",
+        prjSkills: stackBregma,
+        url: "https://bregma.com.pe/",
+        btnName: "Live",
+      },
+    ],
+  },
 ];
 
 const otherExperience = [
@@ -133,14 +162,6 @@ const otherExperience = [
     tasks: [
       "Interfaz web con React.js e integración de APIs en tiempo real.",
       "Estructura de componentes y control de versiones con Git.",
-    ],
-  },
-  {
-    role: "Backend Developer — GetByte",
-    date: "Julio 2023 - Diciembre 2023",
-    tasks: [
-      "API REST con Laravel y documentación Swagger.",
-      "PDFs para exámenes ocupacionales y gestión de base de datos.",
     ],
   },
 ];

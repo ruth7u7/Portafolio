@@ -5,6 +5,7 @@ import Project from "../components/Project";
 import Skills from "../components/Skills";
 import Social from "../components/Social";
 import Email from "../components/Email";
+import References from "../components/References";
 import "../styles/main.css";
 import "../styles/layout.css";
 
@@ -32,6 +33,7 @@ export default function HomePage() {
           <section className="layout-bottom__item layout-bottom__contact section-card">
             <Social />
             <Email />
+            <References />
           </section>
         </div>
 
