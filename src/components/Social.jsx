@@ -34,13 +34,13 @@ export default function Social() {
           </svg>
         </div>
         <div className="social-media mt-5">
-          <a href="www.linkedin.com/in/ruth-peña-valdez-65604a27b">
+          <a href="https://www.linkedin.com/in/ruth-peña-valdez-65604a27b" target="_blank" rel="noreferrer">
             <div className="linkedin">
               <img src={linkedin} alt="linkedin" />
               <p>Linkedin</p>
             </div>
           </a>
-          <a href="https://github.com/ruth7u7">
+          <a href="https://github.com/ruth7u7" target="_blank" rel="noreferrer">
             <div className="github">
               <img src={github} alt="github" width="20" height="20" />
               <p>Github</p>
