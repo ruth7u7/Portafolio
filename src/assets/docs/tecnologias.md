@@ -1,6 +1,9 @@
 # Tecnologías y Experiencia
 
 ## Tecnologías Principales
+- Next.js
+- Node.js
+- FastAPI
 - PHP Laravel
 - Vuexy (Vue3)
 - React

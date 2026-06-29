@@ -31,7 +31,7 @@ export default function Experience() {
           <p className="date">Julio 2025 - Mayo 2026</p>
           <ul className="list-task">
             <li>
-              Desarrollo integral de E-commerce con catálogo de productos, flujo de compra, CRM y dashboards analíticos.
+              Desarrollo integral de E-commerce (Next.js) con catálogo de productos, flujo de compra, CRM y dashboards analíticos.
             </li>
             <li>
               Diseño e implementación de AI Orchestrator utilizando FastAPI y GPT-4o Mini para asistentes inteligentes de productos.
@@ -57,7 +57,7 @@ export default function Experience() {
           <p className="date">Noviembre 2025 - Febrero 2026</p>
           <ul className="list-task">
             <li>
-              Desarrollo de plataforma LegalTech para gestión de reclamos y denuncias ante entidades bancarias.
+              Desarrollo de plataforma LegalTech (Next.js / Node.js) para gestión de reclamos y denuncias ante entidades bancarias.
             </li>
             <li>
               Implementación de Landing Page optimizada para SEO, blog de contenidos y CRM de administración de casos.

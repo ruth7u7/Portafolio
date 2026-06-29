@@ -44,7 +44,7 @@ const workBlocks = [
     role: "Programadora Full Stack — INXORA",
     date: "Julio 2025 - Mayo 2026",
     tasks: [
-      "Desarrollo integral de E-commerce con catálogo, flujo de compra, CRM y dashboards analíticos.",
+      "Desarrollo integral de E-commerce (Next.js) con catálogo, flujo de compra, CRM y dashboards analíticos.",
       "AI Orchestrator con FastAPI y GPT-4o Mini para asistentes inteligentes de productos.",
       "Instrucciones dinámicas en Markdown para routing de intenciones hacia APIs.",
       "Integración LLM con consultas en tiempo real y cotizaciones automatizadas.",
@@ -82,7 +82,7 @@ const workBlocks = [
     role: "Full Stack Developer (Freelance) — LEGALADO",
     date: "Noviembre 2025 - Febrero 2026",
     tasks: [
-      "Plataforma LegalTech para reclamos y denuncias ante entidades bancarias.",
+      "Plataforma LegalTech (Next.js / Node.js) para reclamos y denuncias ante entidades bancarias.",
       "Landing SEO, blog de contenidos y CRM de administración de casos.",
       "Automatización de documentos legales .docx con plantillas dinámicas.",
       "Integración API RENIEC, SendGrid y Resend.",

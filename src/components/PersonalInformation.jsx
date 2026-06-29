@@ -1,7 +1,7 @@
 import { Image } from "primereact/image";
 import profile from "../assets/images/foto_cv.png";
 // import looking from "../assets/images/looking.svg";
-import cv from "../assets/docs/CV_Ruth Peña.pdf";
+import cv from "../assets/docs/CurriculumVitae_RuthPeña.pdf";
 import "../styles/personal.css";
 
 export default function PersonalInformation() {
@@ -17,7 +17,7 @@ export default function PersonalInformation() {
           <p className="description">
             Egresada en Ingeniería de Software con Inteligencia Artificial.
             Experiencia en E-commerce B2B, LegalTech, integración de LLMs y
-            arquitecturas con Laravel, React, FastAPI y PostgreSQL/Supabase.
+            arquitecturas con Next.js, React, Node.js, FastAPI y PostgreSQL/Supabase.
           </p>
           <div className="hero-highlights">
             <span>E-commerce & IA</span>

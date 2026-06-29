@@ -18,23 +18,25 @@ export default function HomePage() {
           <HeroSummary />
         </section>
 
-        <section className="section-card">
-          <WorkShowcase />
-        </section>
-
-        <section className="section-card">
-          <Project groups={["personal"]} showHeader />
-        </section>
-
-        <div className="layout-bottom">
-          <section className="layout-bottom__item layout-bottom__skills section-card">
-            <Skills />
-          </section>
-          <section className="layout-bottom__item layout-bottom__contact section-card">
-            <Social />
-            <Email />
-            <References />
-          </section>
+        <div className="layout-main-grid">
+          <div className="layout-left-column">
+            <section className="layout-item layout-item--skills section-card">
+              <Skills />
+            </section>
+            <section className="layout-item layout-item--contact section-card">
+              <Social />
+              <Email />
+              <References />
+            </section>
+          </div>
+          <div className="layout-right-column">
+            <section className="section-card">
+              <WorkShowcase />
+            </section>
+            <section className="section-card">
+              <Project groups={["personal"]} showHeader />
+            </section>
+          </div>
         </div>
 
         <footer className="site-footer">

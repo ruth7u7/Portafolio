@@ -1,5 +1,5 @@
 import profile from "../assets/images/foto_cv.png";
-import cv from "../assets/docs/CV_RuthPeña.pdf";
+import cv from "../assets/docs/CurriculumVitae_RuthPeña.pdf";
 import "../styles/personal.css";
 
 export default function HeroProfile() {
